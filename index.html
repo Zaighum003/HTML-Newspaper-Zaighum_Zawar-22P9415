@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Document settings and styles -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vintage Newspaper - Historic Bill 1974</title>
+
+    <style>
+        body {
+            background-color: #e0e0e0;
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 20px;
+            color: #1a1a1a;
+        }
+
+        /* --- Main Container --- */
+        .newspaper-container {
+            background-color: #f4e4bc;
+            /* Vintage paper color */
+            max-width: 1100px;
+            margin: 0 auto;
+            border: 1px solid #333;
+            padding: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* --- Headings --- */
+        h1,
+        h2,
+        h3,
+        h4 {
+            text-transform: uppercase;
+            text-align: center;
+            margin: 5px 0;
+            line-height: 1.1;
+        }
+
+        p {
+            font-size: 14px;
+            text-align: justify;
+            line-height: 1.4;
+            margin-bottom: 10px;
+        }
+
+        /* --- Header Elements --- */
+        header {
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+        }
+
+        .top-notice {
+            border: 1px solid #333;
+            padding: 5px;
+            font-size: 12px;
+            text-align: center;
+            font-weight: bold;
+            width: 32%;
+            display: inline-block;
+            vertical-align: top;
+            box-sizing: border-box;
+        }
+
+        .main-headline {
+            font-size: 48px;
+            font-weight: 900;
+            margin-top: 20px;
+            padding-bottom: 10px;
+        }
+
+        nav {
+            text-align: center;
+            border-bottom: 1px solid #333;
+            padding: 5px 0;
+            margin-bottom: 15px;
+            font-style: italic;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .bordered-box {
+            border: 2px solid #333;
+            padding: 10px;
+        }
+
+        /* --- Table Styling (For Column Layout Requirement) --- */
+        table.layout-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        td.col-left,
+        td.col-right {
+            width: 20%;
+            vertical-align: top;
+            padding: 10px;
+        }
+
+        td.col-center {
+            width: 60%;
+            vertical-align: top;
+            padding: 10px;
+            border-left: 1px solid #333;
+            border-right: 1px solid #333;
+        }
+
+        /* --- Images --- */
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .logo-box {
+            background-color: #d32f2f;
+            /* Red Mashriq Logo */
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        /* --- Footer --- */
+        footer {
+            border-top: 3px double #333;
+            text-align: center;
+            padding-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- This is the main wrapper for the entire newspaper -->
+    <div class="newspaper-container">
+
+        <!-- Banner section with headlines -->
+        <header>
+            <div style="text-align: center;">
+                <div class="top-notice">Finality of Prophethood is a core belief.</div>
+                <div class="top-notice">Non-believers in Finality are outside Islam.</div>
+                <div class="top-notice">National Assembly decision on Status.</div>
+            </div>
+
+            <h1 class="main-headline">QADIANIS DECLARED OUTSIDE THE FOLD OF ISLAM</h1>
+        </header>
+
+        <!-- Main navigation links -->
+        <nav>
+            <a href="#">Home</a> &bull;
+            <a href="#">National News</a> &bull;
+            <a href="#">Constitution</a> &bull;
+            <a href="#">Editorial</a>
+        </nav>
+
+        <!-- Featured breaking news story -->
+        <section
+            style="border-bottom: 2px solid #333; margin-bottom: 20px; padding-bottom: 15px; display: flex; align-items: center;">
+            <div style="flex: 3; padding-right: 20px;">
+                <h2>According to the Constitution, those who do not believe in the Finality of Prophethood are
+                    non-Muslims.</h2>
+                <p>The National Assembly unanimously passes the historic bill amending the constitution. A wave of
+                    jubilation across the country. This landmark decision, reached after intense deliberations in the
+                    National Assembly, marks a definitive moment in the constitutional history of the nation,
+                    aligning legal statutes with the fundamental religious convictions held by the majority of the
+                    population.</p>
+            </div>
+            <div style="flex: 1;">
+                <img src="images/img1.jpg" alt="Portrait of Zulfiqar ali bhutto" style="border: 2px solid #333;">
+            </div>
+        </section>
+
+        <!-- Multi-column section for detailed articles and sidebars -->
+        <table class="layout-table">
+            <tr>
+                <td class="col-left">
+                    <article>
+                        <h4>Assembly Highlights</h4>
+                        <p>Key moments from the historic session:</p>
+                        <ul style="padding-left: 20px; font-size: 14px;">
+                            <li>Unanimous decision</li>
+                            <li>Amendment passed at 5:52 PM</li>
+                            <li>Historic constitutional change</li>
+                            <li>Crowds gather outside</li>
+                        </ul>
+                    </article>
+                    <br>
+                    <article>
+                        <h4>Bill Details</h4>
+                        <p>The bill was presented by the Law Minister and debated for several hours before the final
+                            vote was cast.</p>
+                    </article>
+                </td>
+
+                <td class="col-center">
+                    <article>
+                        <h2 style="background: #333; color: #f4e4bc; padding: 5px;">PM Bhutto: A Solution to a Permanent
+                            Problem</h2>
+
+                        <div style="column-count: 2; column-gap: 20px; text-align: justify;">
+                            <p>
+                                <strong>ISLAMABAD:</strong> The Prime Minister addressed the nation regarding the
+                                decision. He stated that this decision reflects the will of the people and the true
+                                tenets of the religion.
+                            </p>
+                            <p>
+                                He emphasized that the protection of the rights of all citizens, including minorities,
+                                remains a primary duty of the state. However, the definition of Muslim has now been
+                                constitutionally clarified.
+                            </p>
+                            <p>
+                                "We have solved a 90-year-old problem," the Prime Minister added, noting that the
+                                assembly acted with great wisdom and patience throughout the proceedings.
+                            </p>
+                            <p>
+                                The legal framework will now be adjusted to reflect this amendment, ensuring that the
+                                law of the land aligns with the new constitutional reality.
+                            </p>
+                        </div>
+                    </article>
+                </td>
+
+                <td class="col-right">
+                    <div class="logo-box">
+                        <h2>MASHRIQ</h2>
+                        <span>Daily Newspaper</span>
+                    </div>
+
+                    <article>
+                        <h4>Public Reaction</h4>
+                        <p>Religious scholars and leaders from various sects have welcomed the decision, calling it a
+                            victory for democracy and faith.</p>
+                    </article>
+                </td>
+            </tr>
+        </table>
+
+        <!-- Bottom section for advertisements and secondary updates -->
+        <section class="bottom-section" style="border-top: 3px double #333; padding-top: 15px;">
+            <div style="display: flex; gap: 15px;">
+
+                <div class="bordered-box" style="width: 30%;height: 300px;">
+                    <h3>PIA to New York</h3>
+                    <img src="images/img3.webp" alt="PIA New York Flight Advertisement">
+                    <p style="text-align: center; margin-top: 5px;">Flights via Cairo, Rome, Paris.</p>
+                </div>
+
+                <div style="width: 50%; height: 300px;">
+                    <h3 style="border: 2px solid #333; padding: 5px;">Detainees to be released shortly</h3>
+                    <div style="display: flex; gap: 15px; align-items: flex-start;">
+                        <div style="width: 45%;">
+                            <img src="images/img2.jpg" alt="Officials discussing release orders"
+                                style="width: 100%; border: 1px solid #333;">
+                        </div>
+                        <div style="width: 55%; text-align: justify;">
+                            <p style="margin-top: 0; font-size: 13px;">
+                                In a gesture of national reconciliation, the administration has confirmed that
+                                individuals
+                                held in custody during the legislative deliberations will be set free. The move is seen
+                                as a
+                                step towards unifying the nation after the historic parliamentary decision.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bordered-box" style="width: 10%;height: 300px; text-align: center;">
+                    <h4>Eagle Pens</h4>
+                    <img src="images/img4.webp" alt="Eagle Pen Vertical Advertisement">
+                </div>
+
+        </section>
+
+        <!-- Footer with publication details -->
+        <footer>
+            <p>7th September 1974 | Bill Passed at 05:52 p.m.</p>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
